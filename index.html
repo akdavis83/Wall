@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Boxes Bounce</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+
+    <style>
+      * {
+        background-color: rgb(25, 24, 24);
+      }
+      .above {
+        position: absolute;
+        z-index: 100;
+        left: 800px;
+        top: 1px;
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+<div>
+<h1 style="text-align: center; color: royalblue;" class="above">
+  <span style="color: rgb(239, 243, 224);">Jericho Wall</span> (Joshua 6:20) So the people shouted when the priests blew with the trumpets: and it came to pass, when the people heard the sound of the trumpet, and the people shouted with a great shout, that the wall fell down flat, so that the people went up into the city, every man straight before him, and they took the city.<span style="color: rgb(0, 174, 255);">Water Wall</span> (Exo 14:22) And the children of Israel went into the midst of the sea upon the dry ground: and the waters were a wall unto them on their right hand, and on their left.
+</h1>
+
+</div>
+
+
+
+
+    <canvas id='game' width="1000px" height="1000px"></canvas>
+    <script src="raylib.js"></script>
+    <script>
+      const raylibjs = new RaylibJs();
+      raylibjs.start({
+          wasmPath: 'demo.wasm',
+          canvasId: 'game',
+      });
+    </script>
+  </body>
+</html>
